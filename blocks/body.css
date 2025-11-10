@@ -1,0 +1,7 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  text-wrap: balance;
+}
