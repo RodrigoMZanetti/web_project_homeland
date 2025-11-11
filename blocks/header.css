@@ -8,3 +8,10 @@
 .header__logo-image {
   padding-top: 34px;
 }
+
+@media screen and (max-width: 544px) {
+  .header__logo-image {
+    padding-top: 20px;
+    width: 120px;
+  }
+}

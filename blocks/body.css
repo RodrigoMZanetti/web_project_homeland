@@ -5,3 +5,7 @@ body {
 p {
   text-wrap: balance;
 }
+
+.page {
+  width: 100%;
+}
