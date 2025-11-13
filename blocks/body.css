@@ -7,17 +7,3 @@ body {
 p {
   text-wrap: balance;
 }
-
-.page {
-  width: 100%;
-}
-
-@media screen and (min-width: 1025px) {
-  body {
-    margin: 0;
-  }
-
-  .page {
-    margin: 0;
-  }
-}
