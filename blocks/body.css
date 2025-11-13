@@ -1,5 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
+  width: 100%;
+  margin: 0;
 }
 
 p {
@@ -8,4 +10,14 @@ p {
 
 .page {
   width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    margin: 0;
+  }
 }

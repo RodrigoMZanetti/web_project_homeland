@@ -7,77 +7,66 @@
 .lead__title {
   color: white;
   font-size: 6rem;
-  line-height: 0.8;
+  line-height: 0.9;
   text-align: center;
-  margin-bottom: 30px;
-}
-
-.lead__title-span {
-  display: block;
+  margin: 0 0 30px 0;
 }
 
 .lead__subtitle {
   text-align: center;
   color: white;
   font-weight: normal;
-  font-size: 1.5rem;
   margin-top: 0;
   padding-bottom: 50px;
 }
 
-.lead__subtitle-span {
-  display: block;
-}
-
 .lead__image {
-  width: 100%;
+  max-width: 1024px;
   height: auto;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (min-width: 1025px) {
+  .lead {
+    max-width: 984px;
+    margin: 0 auto;
+  }
+
   .lead__title {
-    color: white;
-    font-size: 4rem;
-    line-height: 1.1;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 0;
-    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1.2;
+    max-width: 720px;
+    margin-bottom: 20px;
   }
 
   .lead__subtitle {
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     line-height: 1.4;
+    max-width: 720px;
     padding: 0 30px;
-    margin: 0 auto 30px auto;
+    margin-bottom: 4rem;
   }
 
   .lead__image {
-    width: 100%;
+    width: 90%;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 100%;
   }
 
   .lead__title {
-    margin-bottom: 40px;
-    line-height: 6rem;
-    max-width: 720px;
+    font-size: 7rem;
+    margin-top: 60px;
   }
 
   .lead__subtitle {
-    font-size: 2.5rem;
-    margin-top: 0;
-    line-height: 4rem;
-    max-width: 720px;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    width: 95%;
+    margin-top: 20px;
   }
 
   .lead__image {
@@ -85,24 +74,23 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
-  .lead__image {
-    max-width: 984px;
-  }
-
+@media screen and (max-width: 544px) {
   .lead__title {
-    margin-bottom: 20px;
-    line-height: 6rem;
-    max-width: 720px;
+    font-size: 5rem;
+    line-height: 1.1;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 90%;
   }
 
   .lead__subtitle {
-    text-align: center;
-    color: white;
-    font-size: 2.5rem;
-    line-height: 1.4;
-    padding: 0 30px;
-    margin: 0 auto 30px auto;
-    max-width: 720px;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+  .lead__image {
+    width: 100%;
   }
 }
