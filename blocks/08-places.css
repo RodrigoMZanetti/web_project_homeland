@@ -1,0 +1,83 @@
+.places__location {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas:
+    "title     artists"
+    "image     text"
+    "button    text";
+
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-top: 80px;
+  max-width: 1184px;
+  padding: 0 140px;
+}
+
+.places__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.04;
+  margin: 0;
+  max-width: 90%;
+  color: white;
+  grid-area: title;
+}
+
+.places__artists {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.01;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  grid-area: artists;
+  align-self: end;
+}
+
+.places__artist-heading {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+.places-gales__image {
+  width: 100%;
+  grid-area: image;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+}
+
+.places__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+  margin: 0;
+  padding: 0;
+  grid-area: text;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+.places__button {
+  grid-area: button;
+  background: #027bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
