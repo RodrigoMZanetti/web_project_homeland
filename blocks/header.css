@@ -7,19 +7,13 @@
 
 .header__logo-image {
   padding-top: 34px;
-  max-width: 500px;
-}
-
-@media screen and (min-width: 1025px) {
-  .header__logo-image {
-    margin-bottom: 4rem;
-  }
+  width: 100%;
+  max-width: 280px;
 }
 
 @media screen and (max-width: 1024px) {
   .header__logo-image {
     padding-top: 30px;
-    width: 90%;
     margin-bottom: 6rem;
   }
 }
@@ -27,7 +21,6 @@
 @media screen and (max-width: 544px) {
   .header__logo-image {
     padding-top: 20px;
-    width: 70%;
     margin-bottom: 1rem;
   }
 }

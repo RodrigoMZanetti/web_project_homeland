@@ -1,93 +1,75 @@
 .intro {
-  padding: 0 16px;
-  margin: 0 auto;
+  max-width: 830px;
+  margin: 92px auto 0;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .intro__text-title {
+  width: 100%;
+  font-size: 3.2rem;
   color: white;
   font-weight: bold;
-  font-size: 54px;
   line-height: 1.1;
+  padding-bottom: 40px;
+  margin: 0;
 }
 
-.intro__text-quote,
-.intro__text-name,
-.intro__text-content {
+.intro__text-quote {
+  width: 100%;
+  font-size: 1.5rem;
   color: white;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
-@media screen and (min-width: 1025px) {
-  .intro {
-    max-width: 830px;
-    padding: 0;
-    margin: 0 auto;
-  }
+.intro__text-name {
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  text-align: right;
+  padding-bottom: 32px;
+}
+.intro__text-content {
+  width: 100%;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
 
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 544px) {
+  .intro {
+    padding: 0 24px;
+  }
   .intro__text-title {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    font-size: 3.5rem;
   }
 
   .intro__text-quote {
-    font-size: 1.6rem;
-    margin-top: 40px;
+    font-size: 2.5rem;
   }
 
   .intro__text-name {
-    font-size: 1.6rem;
-    margin-top: 10px;
-    text-align: right;
-  }
-
-  .intro__text-content {
-    font-size: 1.2rem;
-    line-height: 1.4;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .intro__text-title {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-
-  .intro__text-quote,
-  .intro__text-content {
-    font-size: 1.8rem;
-    line-height: 1.2;
-  }
-
-  .intro__text-name {
-    font-size: 1.8rem;
-    text-align: right;
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro {
-    padding: 0 12px;
-  }
-
-  .intro__text-title {
     font-size: 2.5rem;
   }
 
   .intro__text-content {
-    font-size: 1.4rem;
-  }
-
-  .intro__text-quote {
-    font-size: 1.8rem;
-    margin-top: 20px;
+    font-size: 2rem;
+    padding-top: 32px;
   }
 }

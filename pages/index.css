@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
-
 @import url(../fonts/fonts.css);
+
 @import url(../blocks/body.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
@@ -8,5 +8,5 @@
 @import url(../blocks/lead.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/photo-grid.css);
-@import url(../blocks/08-places.css);
+@import url(../blocks/places.css);
 @import url(../blocks/footer.css);
