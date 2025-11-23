@@ -6,7 +6,7 @@
   list-style: none;
   margin: 118px auto 18px;
   padding: 0px;
-  max-width: 1020px;
+  max-width: 1200px;
 }
 
 .photo-grid__image {
@@ -18,23 +18,18 @@
 @media screen and (max-width: 1024px) {
   .photo-grid__list {
     grid-template-columns: 1fr 1fr;
-    padding: 0 24px;
-    margin: 96px auto 18px;
-    width: 100%;
-    max-width: 100%;
+    width: 95%;
   }
 }
 
 @media (max-width: 544px) {
   .photo-grid__list {
     grid-template-columns: 1fr;
-    padding: 0;
-    margin-bottom: 60px 0 0 0;
-    width: 100%;
-    max-width: 100%;
+    width: 90%;
   }
 
   .photo-grid__image {
     object-fit: cover;
+    padding-right: 0;
   }
 }
