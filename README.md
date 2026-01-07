@@ -1,5 +1,7 @@
 # Homeland Web Project 🏡
 
+![Project Screenshot](./images/Screenshot.png)
+
 ## Project Overview 📊
 
 The **Homeland Web Project** is a responsive landing page built with HTML and CSS. It focuses on showcasing content about homeland themes, integrating structured sections, clear visual flow, and aesthetic layout. This project was created to practice front-end fundamentals and improve layout and responsive skills.
