@@ -1,63 +1,79 @@
-# Homeland Web Project 🏡
+# Homeland Web Project
+
+## Live Demo
+
+https://rodrigomzanetti.github.io/web_project_homeland/
+
+## Preview
 
 ![Project Screenshot](./images/Screenshot.png)
 
-## Project Overview 📊
+## Overview
 
-The **Homeland Web Project** is a responsive landing page built with HTML and CSS. It focuses on showcasing content about homeland themes, integrating structured sections, clear visual flow, and aesthetic layout. This project was created to practice front-end fundamentals and improve layout and responsive skills.
+Homeland is a responsive landing page built using HTML and CSS. The project focuses on structured content layout, clear visual hierarchy, and responsive design principles.
 
-## Features ✨
+It was created to practice front-end fundamentals such as semantic HTML structure, layout organization, and responsive styling without the use of external frameworks.
 
-- Visually structured landing page
-- Semantic HTML layout
+## Features
+
+- Structured landing page layout
+- Semantic HTML sections
 - Responsive design for different screen sizes
 - Clean typography and spacing
-- Sectioned content for easy reading
+- Organized visual hierarchy
 
-## Technologies Used 🛠️
+## Technologies Used
 
-- **HTML5** — semantic markup and structure
-- **CSS3** — layout, styling, and responsiveness
-- Responsive design principles (mobile-friendly)
+- HTML5 – semantic structure and page organization
+- CSS3 – layout, styling, and responsiveness
+- Responsive design principles
 
-## Project Structure 🗂️
+## Project Structure
 
 web_project_homeland/
-├── index.html
-├── style.css
-├── images/
-│ └── (site images and assets)
-├── favicon.ico
-└── README.md
 
-## How to Run the Project ▶️
+- index.html – main application markup
+- style.css – global styles
+- images/ – project assets
+- favicon.ico – website icon
 
-- Clone this repository:
-  git clone https://github.com/RodrigoMZanetti/web_project_homeland.git
+## How to Run the Project
 
-- Navigate to the project folder:
-  cd web_project_homeland
+- Clone the repository
+git clone https://github.com/RodrigoMZanetti/web_project_homeland.git
 
-- Open the project in your browser:
-  Simply open index.html, or Use a local development server (optional)
+- Navigate to the project folder
+cd web_project_homeland
 
-## Project Status 📌
+- Open the project
+Open **index.html** in your browser or run a local development server if preferred.
 
-✅ Completed — static landing page
-🔧 Available for enhancements such as animations, accessibility improvements, and interactivity with JavaScript
+## Status
 
-## Problem-Solving Approach 🧠
+Completed as part of front-end development training.
 
-- To build this project, the focus was:
-- Structuring content into semantic HTML sections
-- Applying CSS for layout and responsive behavior
-- Testing appearance across screens
-- Refining typography, spacing, and visual hierarchy
-- Ensuring the page loads correctly without external frameworks
-- This process reinforced understanding of core front-end skills and layout best practices.
+## Problem Solving
 
-## Author 👤
+The main focus of this project was building a clean and structured layout using semantic HTML and CSS. Special attention was given to maintaining consistent spacing, readable typography, and responsive behavior across different screen sizes.
 
-- Rodrigo M. Zanetti
-  GitHub: https://github.com/RodrigoMZanetti
-  LinkedIn: https://www.linkedin.com/in/rodrigomzanetti
+The layout was organized into clear sections, improving content readability and visual hierarchy while ensuring the page loads efficiently without external frameworks.
+
+## What I Learned
+
+During this project I practiced:
+
+- Structuring semantic HTML layouts
+- Building responsive page sections with CSS
+- Organizing visual hierarchy through spacing and typography
+- Applying responsive design principles
+- Developing static landing pages with clean structure
+
+## Author
+
+Rodrigo M. Zanetti
+
+GitHub  
+https://github.com/RodrigoMZanetti
+
+LinkedIn  
+https://www.linkedin.com/in/rodrigomzanetti
