@@ -1,63 +1,30 @@
-# Homeland Web Project 🏡
+# Homeland
 
-![Project Screenshot](./images/Screenshot.png)
+A responsive landing page showcasing stories and photos from different cities around the world — Wales, USA, Burundi, and Brazil. Built as part of the TripleTen Web Development program.
 
-## Project Overview 📊
+## Live Demo
 
-The **Homeland Web Project** is a responsive landing page built with HTML and CSS. It focuses on showcasing content about homeland themes, integrating structured sections, clear visual flow, and aesthetic layout. This project was created to practice front-end fundamentals and improve layout and responsive skills.
+https://rodrigomzanetti.github.io/web_project_homeland/
 
-## Features ✨
+## Preview
 
-- Visually structured landing page
-- Semantic HTML layout
-- Responsive design for different screen sizes
-- Clean typography and spacing
-- Sectioned content for easy reading
+![Screenshot](./images/Screenshot.png)
 
-## Technologies Used 🛠️
+## Tech Stack
 
-- **HTML5** — semantic markup and structure
-- **CSS3** — layout, styling, and responsiveness
-- Responsive design principles (mobile-friendly)
+- **Frontend:** HTML5, CSS3
 
-## Project Structure 🗂️
+## Features
 
-web_project_homeland/
-├── index.html
-├── style.css
-├── images/
-│ └── (site images and assets)
-├── favicon.ico
-└── README.md
+- Responsive layout for mobile and desktop
+- Semantic HTML structure
+- Photo grid and location cards
+- Clean typography and visual hierarchy
 
-## How to Run the Project ▶️
+## Running Locally
 
-- Clone this repository:
-  git clone https://github.com/RodrigoMZanetti/web_project_homeland.git
+Clone the repository and open `index.html` in your browser.
 
-- Navigate to the project folder:
-  cd web_project_homeland
+## Author
 
-- Open the project in your browser:
-  Simply open index.html, or Use a local development server (optional)
-
-## Project Status 📌
-
-✅ Completed — static landing page
-🔧 Available for enhancements such as animations, accessibility improvements, and interactivity with JavaScript
-
-## Problem-Solving Approach 🧠
-
-- To build this project, the focus was:
-- Structuring content into semantic HTML sections
-- Applying CSS for layout and responsive behavior
-- Testing appearance across screens
-- Refining typography, spacing, and visual hierarchy
-- Ensuring the page loads correctly without external frameworks
-- This process reinforced understanding of core front-end skills and layout best practices.
-
-## Author 👤
-
-- Rodrigo M. Zanetti
-  GitHub: https://github.com/RodrigoMZanetti
-  LinkedIn: https://www.linkedin.com/in/rodrigomzanetti
+Rodrigo Zanetti — [LinkedIn](https://linkedin.com/in/rodrigomaturanozanetti) · [GitHub](https://github.com/RodrigoMZanetti)
